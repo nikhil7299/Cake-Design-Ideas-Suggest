@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+p {
+    width: 300px;
+    word-wrap: break-word;
+}
+
+section {
+    padding: 20px;
+    width: 1850px;
+    margin: 40px auto;
+}
+
+section ul {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+section ul li {
+    list-style: none;
+    background: #ddd;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+
+    background: rgb(176, 97, 255);
+
+    color: #fff;
+}
+
+section ul li.active:hover {
+    background-color: rgb(146, 69, 224);
+
+}
+
+section ul li:hover {
+    background-color: rgb(171, 171, 171);
+}
+
+
+
+.list2,
+.list3 {
+
+    border-radius: 20px;
+}
+
+.list2.active {
+    background: rgb(231, 81, 156);
+}
+
+.list2.active:hover {
+
+    background: rgb(201, 67, 134);
+}
+
+.list3.active {
+    background: rgb(7, 172, 172);
+}
+
+.list3.active:hover {
+    background-color: teal;
+}
+
+.content {
+    background-color: white;
+    padding: 15px;
+    height: 580px;
+    border-radius: 16px;
+    margin: 6px;
+
+    position: relative;
+}
+
+h3 {
+    background-color: rgb(212, 212, 212);
+    padding: 10px 20px;
+    margin: 5px 20px 5px 5px;
+    letter-spacing: 1px;
+    width: 150px;
+}
+
+h4 {
+
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+p {
+
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+img {
+    border-radius: 9px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .product .itembox {
+    position: relative;
+    width: 300px;
+    height: 800px;
+    margin: 5px;
+}
+
+.product .itembox img {
+    position: absolute;
+    top: 2;
+    left: 2;
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+} */
